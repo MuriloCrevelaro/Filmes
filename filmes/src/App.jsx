@@ -1,0 +1,16 @@
+import { useState } from 'react'
+import './App.css'
+import Login from './pages/login/login'
+import CadastroFilme from './pages/cadastroFilme/CadastroFilme'
+import CadastroGenero from './pages/cadastroGenero/CadastroGenero'
+import { Rotas } from './routes/Routes'
+import Header from './components/header/Header'
+
+function App() {
+  //função de trocar o tema
+  return (
+      <Rotas />
+  )
+}
+
+export default App
