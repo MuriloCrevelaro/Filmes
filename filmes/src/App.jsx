@@ -7,7 +7,6 @@ import { Rotas } from './routes/Routes'
 import Header from './components/header/Header'
 
 function App() {
-  //função de trocar o tema
   return (
       <Rotas />
   )
